@@ -91,22 +91,24 @@ This template also employs Test-Driven Development (TDD) and Continuous Integrat
 - [TargetVectorCommonUI](https://github.com/Voidware-Prohibited/TargetVectorCommonUI)
 - [TargetVectorDebugNetStats](https://github.com/Voidware-Prohibited/TargetVectorDebugNetStats)
 - [TargetVectorContent](https://github.com/Voidware-Prohibited/TargetVectorContent)
+- [EOS Integration Kit](https://github.com/betidestudio/EOSIntegrationKit)
+- [VARest](https://github.com/ufna/VaRest)
+- Game Features
 
 **Included Additional Plugins**
 
 - [Advanced Locomotion System Refactored](https://github.com/Sixze/ALS-Refactored/)
 - [TTToolbox](https://github.com/tuatec/TTToolbox)
 - [SkeletalMeshMerger](https://github.com/WHITEJAIL/SkeletalMeshMerger)
-- [VaREST](https://github.com/ufna/VaRest)
 
 **External Dependencies**
-These plugins will need to be copied from the Lyra Starter Kit plugin folder into this projects plugin folder.
+These plugins will need to be copied from the Lyra Sample Game plugin folder ([UE5_Source_Folder]\Samples\Games\Lyra\Plugins) into this projects **Plugins** folder.
 
 - AsyncMixin
-- Common Gameplay
-- Common User
-- Game Features
-- Modular Gameplay
+- CommonGame
+- CommonLoadingScreen
+- CommonUser
+- ModularGameplayActors
 - UIExtension
 
 _This is currently a work in progress, and not production-ready_

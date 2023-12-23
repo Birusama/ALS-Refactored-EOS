@@ -28,3 +28,6 @@
 [submodule "Plugins/TTToolbox"]
 	path = Plugins/TTToolbox
 	url = ../../tuatec/TTToolbox.git
+[submodule "Plugins/EOSIntegrationKit"]
+	path = Plugins/EOSIntegrationKit
+	url = ../EOSIntegrationKit.git
