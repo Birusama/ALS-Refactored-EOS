@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "",
+	"EngineAssociation": "{C3B8BFAC-4399-286F-315B-A1BEF4C96DAA}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -11,7 +11,8 @@
 			"AdditionalDependencies": [
 				"Engine",
 				"UMG",
-				"CommonGame"
+				"CommonGame",
+				"ALSXT"
 			]
 		}
 	],

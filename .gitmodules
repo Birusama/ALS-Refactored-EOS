@@ -31,3 +31,6 @@
 [submodule "Plugins/EOSIntegrationKit"]
 	path = Plugins/EOSIntegrationKit
 	url = ../EOSIntegrationKit.git
+[submodule "Plugins/OVRLipSync"]
+	path = Plugins/OVRLipSync
+	url = ../OculusLipsync.git

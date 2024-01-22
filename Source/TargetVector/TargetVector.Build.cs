@@ -8,6 +8,6 @@ public class TargetVector : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "OnlineSubsystem", "OnlineSubsystemEOS", "AITestSuite", "AITestSuite", "AITestSuite"});
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "ALS", "ALSEditor", "ALSExtras", "ALSXT", "HeadMountedDisplay", "OnlineSubsystem", "OnlineSubsystemEOS", "AITestSuite", "AITestSuite", "AITestSuite"});
 	}
 }
