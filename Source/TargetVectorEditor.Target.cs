@@ -11,5 +11,7 @@ public class TargetVectorEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		CppStandard = CppStandardVersion.Cpp20;
 		ExtraModuleNames.Add("TargetVector");
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+		BuildEnvironment = TargetBuildEnvironment.Unique;
 	}
 }
