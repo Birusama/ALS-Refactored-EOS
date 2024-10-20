@@ -130,12 +130,12 @@
 			"Enabled": false
 		},
 		{
-			"Name": "VisualStudioSourceCodeAccess",
-			"Enabled": false
-		},
-		{
 			"Name": "Soundscape",
 			"Enabled": true
+		},
+		{
+			"Name": "StudioTelemetry",
+			"Enabled": false
 		}
 	]
 }
