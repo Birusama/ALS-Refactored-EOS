@@ -11,7 +11,7 @@ void setBuildStatus(String message, String state) {
 pipeline {
   agent {
     node {
-      label 'master'
+      label 'stable'
       customWorkspace "D:\\DEV\\UE5_Source\\Projects\\TargetVector" //use backward slashes to avoid problems with how Windows uses directories!!
     }
   }//^all this is necessary to run the build in a special workspace.

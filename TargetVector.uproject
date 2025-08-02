@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{50E0EBA3-44FB-5D05-90F3-5FAEAAFC4DA8}",
+	"EngineAssociation": "{E6F4CEF6-4A3E-AA1D-7992-E6B7A6C8031D}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -80,11 +80,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/61f97c8434374b99979c417944ac3678"
 		},
 		{
-			"Name": "VaRest",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
-		},
-		{
 			"Name": "JsonBlueprintUtilities",
 			"Enabled": true
 		},
@@ -135,6 +130,34 @@
 		},
 		{
 			"Name": "StudioTelemetry",
+			"Enabled": false
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "AbilitySystemGameFeatureActions",
+			"Enabled": true
+		},
+		{
+			"Name": "TargetingSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioGameplayVolume",
+			"Enabled": true
+		},
+		{
+			"Name": "SkeletalMerging",
+			"Enabled": true
+		},
+		{
+			"Name": "SkeletalMeshMerger",
 			"Enabled": false
 		}
 	]

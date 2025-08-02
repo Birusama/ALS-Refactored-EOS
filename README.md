@@ -5,35 +5,19 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/Voidware-Prohibited/TargetVector/commits/master">
-    <img src="https://img.shields.io/github/last-commit/Voidware-Prohibited/TargetVector.svg?style=flat-square&logo=github&logoColor=white"
-         alt="GitHub last commit">
-     </a>
-    <a href="https://github.com/Voidware-Prohibited/TargetVector/commits/master">
-    <img src="https://img.shields.io/github/checks-status/Voidware-Prohibited/TargetVector/main?style=flat-square&logo=github&logoColor=white"
-         alt="Checks Status">
-     </a>
-    <a href="https://github.com/Voidware-Prohibited/TargetVector/issues">
-    <img src="https://img.shields.io/github/issues-raw/Voidware-Prohibited/TargetVector.svg?style=flat-square&logo=github&logoColor=white"
-         alt="GitHub issues">
-    </a>
-    <a href="https://github.com/Voidware-Prohibited/TargetVector/pulls">
-    <img src="https://img.shields.io/github/issues-pr-raw/Voidware-Prohibited/TargetVector.svg?style=flat-square&logo=github&logoColor=white"
-         alt="GitHub pull requests">
-    </a>
-    <a href="https://github.com/Voidware-Prohibited/TargetVector/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Voidware-Prohibited/TargetVector.svg?style=flat-square&logo=github&logoColor=white"
-         alt="MIT License">
-    </a>
-    <a href="https://github.com/sponsors/colorindarkness">
-    <img src="https://img.shields.io/github/sponsors/colorindarkness.svg?style=flat-square&logo=github&logoColor=white"
-         alt="Become a Sponsor">
-    </a>
-    <a href="https://www.patreon.com/colorindarkness">
-    <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dcolorindarkness%26type%3Dpatrons&style=flat-square"
-         alt="Become a Patron">
-    </a>
+     <a href="https://github.com/Voidware-Prohibited/TargetVector/commits/master"><img src="https://img.shields.io/github/last-commit/Voidware-Prohibited/TargetVector.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub last commit"></a>&nbsp;
+     <a href="https://github.com/Voidware-Prohibited/TargetVector/commits/master"><img src="https://img.shields.io/github/checks-status/Voidware-Prohibited/TargetVector/main?style=flat-square&logo=github&logoColor=white" alt="Checks Status"></a>&nbsp;
+     <a href="https://github.com/Voidware-Prohibited/TargetVector/issues"><img src="https://img.shields.io/github/issues-raw/Voidware-Prohibited/TargetVector.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub issues"></a>&nbsp;
+     <a href="https://github.com/Voidware-Prohibited/TargetVector/pulls"><img src="https://img.shields.io/github/issues-pr-raw/Voidware-Prohibited/TargetVector.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub pull requests"></a>&nbsp;
+     <a href="https://github.com/Voidware-Prohibited/ALSXT/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-silver.svg?style=flat-square&logo=github&logoColor=white" alt="MIT License"></a>
 </p>
+<p align="center">
+     <a href="https://github.com/sponsors/colorindarkness"><img src="https://img.shields.io/github/sponsors/colorindarkness.svg?style=flat-square&logo=github&logoColor=white" alt="Become a Sponsor"></a>&nbsp;
+     <a href="https://www.patreon.com/colorindarkness"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dcolorindarkness%26type%3Dpatrons&style=flat" alt="Become a Patron"></a>&nbsp;
+     <a href="https://ko-fi.com/colorindarkness"><img alt="Support me on Ko-fi" src="https://img.shields.io/badge/support_me_on-Ko--fi-red?link=https%3A%2F%2Fko-fi.com%2Fcolorindarkness"></a>&nbsp;
+     <a href="https://liberapay.com/colorindarkness"><img alt="Support me on Liberapay" src="https://img.shields.io/badge/support_me_on-liberapay-yellow?link=https%3A%2F%2Fliberapay.com%2Fcolorindarkness%2F"></a>
+</p>
+
 
 An Unreal Engine 5 Template utilizing EOS (Epic Online Services), Dedicated Server, Steam, Modular Gameplay, Common UI, Advanced Locomotion System Refactored XT, Lyra Modeling Tools and more.
 
@@ -51,10 +35,11 @@ This template also employs Test-Driven Development (TDD) and Continuous Integrat
     1. [Requirements](#advanced-requirements)
     2. [The CI/TDD Development Process](#The-CI/TDD-Development-Process)
     3. [First Time Steps](#First-Time-Steps)
-    4. [Jenkins Setup](#Jenkins-Setup)
-    5. [The Jenkinsfile](#The-Jenkinsfile)
-    4. [Discord Setup](#Discord-Setup)
-    5. [Automated Testing](#Automated-Testing)
+    4. [Github Actions](#Github-Actions)
+    5. [Jenkins Setup](#Jenkins-Setup)
+    6. [The Jenkinsfile](#The-Jenkinsfile)
+    7. [Discord Setup](#Discord-Setup)
+    8. [Automated Testing](#Automated-Testing)
 4.	[License](#License)
 5.	[Attributions](#Attributions)
 6.	[Special Thanks](#Special-Thanks)
@@ -67,21 +52,20 @@ This template also employs Test-Driven Development (TDD) and Continuous Integrat
 
 **Features**
 
-- The EOSGameInstance C++ class exposes basic EOS functionality such as Login, Friends, Invites, and Creating and Joining Sessions to Blueprint. EOSPlus allows for a secondary authentication system (Steam by default).
+- EOSIntegrationKit integration.
+- A complete, replicated, Epic Game Framework Implementation with Game States, Player States, Specatating and Replay.
 - Modular Gameplay ready with UIExtension to improve Mod/UGC Authoring workflows in actors and UIs.
 - CommonUI based main menu system with Tabbed navigation, Input Routing, Loading Screen, Primary Layout and Async Mixin implementation (Push Widget).
 - Server Browser (via helper functions (work in progress)). 
-- Advanced Locomotion System Refactored: Expanded Character States, Improved Foot Print system, Sliding and Vaulting (XT) _Coming Soon_.
+- ALS Refactored + ALSXT Character implementations.
 - Modeling Tools: The Lyra Procedural Level block out tools using Geometry Script adapted into a plugin.
 - TTToolbox: Various editor tools to facilitate retargeting characters and animations to the ALS skeleton.
 - SkeletalMeshMerger: Merge skeletal component at run-time.
-- Test-Driven Development (TDD) and Continuous Integration (CI)
+- Test-Driven Development (TDD) and Continuous Integration (CI) with Jenkins (Github Actions coming soon)
 
 **Dependecies**
 
-- OnlineSubsystemEOS
-- OnlineServicesEOS
-- OnlineSubsystemSteam
+- EOSIntegrationKit
 - Common UI
 
 **Core Plugins**
@@ -92,12 +76,11 @@ This template also employs Test-Driven Development (TDD) and Continuous Integrat
 - [TargetVectorDebugNetStats](https://github.com/Voidware-Prohibited/TargetVectorDebugNetStats)
 - [TargetVectorContent](https://github.com/Voidware-Prohibited/TargetVectorContent)
 - [EOS Integration Kit](https://github.com/betidestudio/EOSIntegrationKit)
-- [VARest](https://github.com/ufna/VaRest)
 - Game Features
 
 **Included Additional Plugins**
 
-- [Advanced Locomotion System Refactored](https://github.com/Sixze/ALS-Refactored/)
+- [ALS Refactored](https://github.com/Sixze/ALS-Refactored/)
 - [TTToolbox](https://github.com/tuatec/TTToolbox)
 - [SkeletalMeshMerger](https://github.com/WHITEJAIL/SkeletalMeshMerger)
 
@@ -203,35 +186,35 @@ Setup for Test-Driven Development (TDD) and Continuous Integration (CI)
 - Unreal Engine 5 5.0.2 or later built from github source code
 - Visual Studio 2017 or newer
 - clang -20 13.0.1
-- Java 11
+- Java 11 (For Jenkins)
 - Jenkins
 - Git
-- Github
+- Github Actions
 - Domain Name or ngrok
 - OpenCppCoverage
 
 
 ## The CI/TDD Development Process
 
-1. Make local changes
+1. Commit is pushed to git remote repository (or optionally a Pull Request) 
 
-2. Commit and push changes to git remote repository (or Pull Request) 
+2.   a. Github Action is triggered,
 
-3. Github receives the push and uses it's webhook to notify Jenkins (via Domain Name, Dynamic DNS or ngrok).
+     b. Jenkins is triggered via Webhook that a commit has been pushed,
 
-4. Jenkins receives a notification that a repository included in a pipeline has received a push.
+3. The local environment is cleaned up.
 
-5. Jenkins pulls each change to the remote repository into the Jenkins workspace.
+5. Newest commit is pulled to local environment to build
 
-6. Jenkins starts the pipeline associated with that repository.
+6. Set Github Status to Pending.
 
-7. The Pipeline builds the project.
+7. Build the project.
 
-8. The Pipeline runs tests while doing code coverage.
+8. Run tests while doing code coverage.
 
-9. The Pipeline displays build status and tests reports.
+9. Display build status and tests reports.
 
-10. Jenkins notifies Github and Discord of the results of the pipeline build.
+10. Notifiy Github and Discord of the results of the pipeline build.
 
 The Rule: Test > Refactor > Test
 
@@ -239,9 +222,7 @@ The Rule: Test > Refactor > Test
 
 0. Install all required programs.
 
-1. Setup a Domain Name, Dynamic DNS or use ngrok access Jenkins via port (default is 8080).
-
-2. Setup Jenkins
+1. Setup a remote network access to Github Runners or Jenkins.
 
 3. Setup Discord
 
@@ -249,17 +230,18 @@ The Rule: Test > Refactor > Test
 
 5. [Setup EOS](#EOS-Setup)
 
-5. Create Jenkins Multibranch Pipeline project
-
-6. Push project changes to remote git server to activate the build trigger in Jenkins
+6. Push project changes to remote git server to activate the CI build trigger
 
 ### Install Programs
 
 1. Unreal Engine 5
 2. Git
-3. Java
-4. Jenkins
+4. Jenkins and Java or Github Actions Runner
 5. OpenCppCoverage
+
+### Github Actions
+
+     Coming Soon
 
 ### Jenkins Setup
 
