@@ -25,3 +25,9 @@
 [submodule "Plugins/EOSIntegrationKit"]
 	path = Plugins/EOSIntegrationKit
 	url = ../EOSIntegrationKit.git
+[submodule "Plugins/TargetVectorBallistics"]
+	path = Plugins/TargetVectorBallistics
+	url = ../TargetVectorBallistics.git
+[submodule "Plugins/Flora"]
+	path = Plugins/Flora
+	url = ../Flora.git
