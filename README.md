@@ -21,6 +21,43 @@
 
 An Unreal Engine 5 Template utilizing EOS (Epic Online Services), Dedicated Server, Steam, Modular Gameplay, Common UI, Advanced Locomotion System Refactored XT, Lyra Modeling Tools and more.
 
+Goals
+
+- To provide a Complete Free and Open Source Cross-Platform Framework for Modern Multiplayer service games.
+- Assets
+- Procedural Content Generation
+- Modular Assets
+- To utilize cutting-edge, optimized techology and methodlogies.
+- Full Utilization of the Gameplay Framework.
+- Dynamic Cusomizable Game State.
+- Dynamic Game Server Events.
+- Advanced Dynamic Weather and Wind System.
+- Foliage, Water and Landscape Interaction system.
+- Master Masterials with Weather and Wind Support.
+- Serialized Level Configuration
+- Gameplay Features support.
+- Gameplay Abilities System.
+- DLC and User Generated Content Support.
+- Epic Online Services Support.
+- Steam Workshop Support
+- Service-wide Events.
+
+- Master Server
+     - Scalable
+     - Web Frontend
+     - Leaderboards, Achievements, Groups, Profiles.
+     - Game Server Moderation and Administration.
+     - Service-wide Moderation and Administration.
+     - Administration of Events, Updates, DLC, User Generated Content and Users.
+
+- Cross-Platform Launcher/Updater.
+     - Cross-Platform
+     - Server Browser
+     - Configuration
+     - DLC and UGC Management
+
+- No Monetization or Crypto
+
 This template also employs Test-Driven Development (TDD) and Continuous Integration (CI) and assumes working knowledge of C++, Jenkins and Unit Testing.
 
 # Table of contents
