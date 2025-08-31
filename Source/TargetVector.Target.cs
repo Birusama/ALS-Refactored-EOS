@@ -8,7 +8,10 @@ public class TargetVectorTarget : TargetRules
 	public TargetVectorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+		bOverrideBuildEnvironment = true;
+		bWithPushModel = true;
 		ExtraModuleNames.Add("TargetVector");
 	}
 }

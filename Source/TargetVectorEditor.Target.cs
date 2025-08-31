@@ -8,10 +8,10 @@ public class TargetVectorEditorTarget : TargetRules
 	public TargetVectorEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		CppStandard = CppStandardVersion.Cpp20;
-		ExtraModuleNames.Add("TargetVector");
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-		BuildEnvironment = TargetBuildEnvironment.Unique;
+		bOverrideBuildEnvironment = true;
+		bWithPushModel = true;
+		ExtraModuleNames.Add("TargetVector");
 	}
 }

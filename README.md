@@ -138,7 +138,7 @@ Setup for EOS and Dedicated Server
 
 ## Basis Requirements
 
-- Unreal Engine 5.0.2 or later built from github Source Code
+- Unreal Engine 5.6.1 or later built from github Source Code
 - Visual Studio 2017 or newer
 - clang -20 13.0.1
 

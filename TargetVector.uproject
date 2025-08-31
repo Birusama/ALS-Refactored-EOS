@@ -159,6 +159,18 @@
 		{
 			"Name": "SkeletalMeshMerger",
 			"Enabled": false
+		},
+		{
+			"Name": "Chooser",
+			"Enabled": true
+		},
+		{
+			"Name": "ContextualAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "RemoteControl",
+			"Enabled": true
 		}
 	]
 }

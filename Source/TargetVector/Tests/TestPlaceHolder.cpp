@@ -19,7 +19,7 @@
 
 
 //a test
-IMPLEMENT_SIMPLE_AUTOMATION_TEST(FOneShouldBeOneTest, "Game.Unit.TestPlaceholder.OneShouldBeOne", EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter)
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FOneShouldBeOneTest, "Game.Unit.TestPlaceholder.OneShouldBeOne", EAutomationTestFlags::ProgramContext | EAutomationTestFlags::ProductFilter)
 
 
 bool FOneShouldBeOneTest::RunTest(const FString& Parameters)
@@ -34,7 +34,7 @@ bool FOneShouldBeOneTest::RunTest(const FString& Parameters)
 
 
 //another test
-IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSTwoShouldBeTwoTest, "Game.Unit.TestPlaceholder.TwoShouldBeTwo", EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::ProductFilter)
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSTwoShouldBeTwoTest, "Game.Unit.TestPlaceholder.TwoShouldBeTwo", EAutomationTestFlags::ProgramContext | EAutomationTestFlags::ProductFilter)
 
 
 bool FSTwoShouldBeTwoTest::RunTest(const FString& Parameters)
