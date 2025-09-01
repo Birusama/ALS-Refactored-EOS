@@ -30,4 +30,16 @@
 	url = ../Flora.git
 [submodule "Plugins/Ricochet"]
 	path = Plugins/Ricochet
-	url = git@github.com:Voidware-Prohibited/Ricochet.git
+	url = ../Ricochet.git
+[submodule "Plugins/Axos"]
+	path = Plugins/Axos
+	url = ../Axos.git
+[submodule "Plugins/Chronos"]
+	path = Plugins/Chronos
+	url = ../Chronos.git
+[submodule "Plugins/Clima"]
+	path = Plugins/Clima
+	url = ../Clima.git
+[submodule "Plugins/UEModularFeatures_ExtraActions"]
+	path = Plugins/UEModularFeatures_ExtraActions
+	url = ../UEModularFeatures_ExtraActions.git
