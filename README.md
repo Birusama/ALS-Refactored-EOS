@@ -27,13 +27,13 @@ Goals
 - Assets
 - Procedural Content Generation
 - Modular Assets
-- To utilize cutting-edge, optimized techology and methodlogies.
+- To utilize cutting-edge, optimized technology and methodologies.
 - Full Utilization of the Gameplay Framework.
-- Dynamic Cusomizable Game State.
+- Dynamic Customizable Game State.
 - Dynamic Game Server Events.
 - Advanced Dynamic Weather and Wind System.
 - Foliage, Water and Landscape Interaction system.
-- Master Masterials with Weather and Wind Support.
+- Master Materials with Weather and Wind Support.
 - Serialized Level Configuration
 - Gameplay Features support.
 - Gameplay Abilities System.
