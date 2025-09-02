@@ -87,7 +87,7 @@ This template also employs Test-Driven Development (TDD) and Continuous Integrat
 
 **Currently under re-factoring for modularity. All functionality has been migrated into TargetVector* plugins (TargetVectorEOS, TargetVectorCommonUi etc.), leaving the project empty. Documentation update is coming soon. Please update your forks regularly.**
 
-**Features**
+## ✨ Features
 
 - EOSIntegrationKit integration.
 - A complete, replicated, Epic Game Framework Implementation with Game States, Player States, Specatating and Replay.
@@ -132,6 +132,8 @@ These plugins will need to be copied from the Lyra Sample Game plugin folder ([U
 - UIExtension
 
 _This is currently a work in progress, and not production-ready_
+
+## 🚀 Quick Start
 
 # Basic Setup
 Setup for EOS and Dedicated Server
@@ -200,10 +202,28 @@ It is highly recommended to keep your Artifacts in this ini file instead of edit
 Open the Project with the Editor and in Project Settings > Maps & Modes select the EOS_GameInstance class in the Game Instance Class drop-down menu.
 
 ### Code
-Source code for the EOS Game Instance class can be found in the Source folder inside the Project folder. You are encouraged to expand, improve or sub-class the EOSGameInstance C++ class to meet the unique requirements of your project.
-
 CommonUI functionality is implemented in the B_PlayerController, B_MainMenuController and B_HUD Classes.
 Source code for ALS_Refactored_XT can be found in the Plugins folder inside the Project folder.
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── app-sidebar/    # Sidebar navigation components
+│   └── ui/             # shadcn/ui components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions and configs
+├── routes/             # Route components and layouts
+└── styles/             # Global styles and CSS
+```
+
+
+## 🔧 Available Scripts
+- `./StartDedicatedServer.sh` - Start Dedicated Server
+- `./StartDedicatedServer.bat` - Start Dedicated Server (Windows)
+- `./TestRunnerAndCodeCoverage.bat` - Start Dedicated Server
+- `./TestRunner.bat` - Start Dedicated Server
 
 ### Testing
 To test the basic EOS functionality use the **EOS_Testing.bat** file. Edit the "ue5path" varible to reflect your Unreal Engine 5 installation directory. Currently, to test EOS functionality between multiple players you will need an Epic and Steam login for each player. 
@@ -331,9 +351,9 @@ Included are 2 simple C++ tests in the "Game." group that are already setup to r
 Create new C++ tests in the /Source/Tests folder and add them to the "Game." group to automatically run Testing and Code Coverage with Jenkins builds.
 Alternatively modify the Jenkinsfile to use another test group or a specific test.
 
-# License
+## 📄 License
 
-Original content and code in this repository is under the MIT license. Any git submodules are covered by their respective licenses. Content listed in the Attributions are covered by their respective licenses.
+This project is open source and available under the [MIT License](LICENSE). Any git submodules are covered by their respective licenses. Content listed in the Attributions are covered by their respective licenses.
 
 # Attributions
 
