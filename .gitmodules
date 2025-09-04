@@ -40,6 +40,9 @@
 [submodule "Plugins/Clima"]
 	path = Plugins/Clima
 	url = ../Clima.git
+[submodule "Plugins/Travos"]
+	path = Plugins/Travos
+	url = ../Travos.git
 [submodule "Plugins/UEModularFeatures_ExtraActions"]
 	path = Plugins/UEModularFeatures_ExtraActions
 	url = ../UEModularFeatures_ExtraActions.git
