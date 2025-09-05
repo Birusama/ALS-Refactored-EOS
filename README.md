@@ -21,6 +21,8 @@
 
 An Unreal Engine 5 Template utilizing EOS (Epic Online Services), Dedicated Server, Steam, Modular Gameplay, Common UI, Advanced Locomotion System Refactored XT, Lyra Modeling Tools and more.
 
+Design Document
+
 Goals
 
 - To provide a Complete Free and Open Source Cross-Platform Framework for Modern Multiplayer service games.
@@ -100,7 +102,33 @@ This template also employs Test-Driven Development (TDD) and Continuous Integrat
 - SkeletalMeshMerger: Merge skeletal component at run-time.
 - Test-Driven Development (TDD) and Continuous Integration (CI) with Jenkins (Github Actions coming soon)
 
-**Dependecies**
+Component plugins
+
+- [ALSXT](https://github.com/Voidware-Prohibited/ALSXT)
+- [TargetVectorCode](https://github.com/Voidware-Prohibited/TargetVectorEOS)
+- [TargetVectorEOS](https://github.com/Voidware-Prohibited/TargetVectorEOS)
+- [TargetVectorCommonUI](https://github.com/Voidware-Prohibited/TargetVectorCommonUI)
+- [TargetVectorDebugNetStats](https://github.com/Voidware-Prohibited/TargetVectorDebugNetStats)
+- [TargetVectorContent](https://github.com/Voidware-Prohibited/TargetVectorContent)
+
+Part of the Astra
+
+- **Gameplay Ability System**
+- **Game Framework**
+- **Modular Gameplay Features**
+- **Epic Online Services**
+- **JSON Serialization**
+- **Gameplay API**
+- **Database API**
+- **CD/CI**
+
+### Game
+
+### Dedicated Server
+
+## Editor
+
+**Dependencies**
 
 - EOSIntegrationKit
 - Common UI
@@ -113,7 +141,8 @@ This template also employs Test-Driven Development (TDD) and Continuous Integrat
 - [TargetVectorDebugNetStats](https://github.com/Voidware-Prohibited/TargetVectorDebugNetStats)
 - [TargetVectorContent](https://github.com/Voidware-Prohibited/TargetVectorContent)
 - [EOS Integration Kit](https://github.com/betidestudio/EOSIntegrationKit)
-- Game Features
+- [Gameplay Ability System](https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-ability-system-for-unreal-engine)
+- [Modular Game Features](https://www.unrealengine.com/en-US/blog/modular-game-features-in-ue5-plug-n-play-the-unreal-way)
 
 **Included Additional Plugins**
 
@@ -131,7 +160,12 @@ These plugins will need to be copied from the Lyra Sample Game plugin folder ([U
 - ModularGameplayActors
 - UIExtension
 
-_This is currently a work in progress, and not production-ready_
+> [!NOTE]
+> _This is currently a work in progress, and not production-ready_
+
+[Epic C++ Coding Standard for Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine)
+
+[Gamemakin UE5 Style Guide](https://github.com/Allar/ue5-style-guide/tree/v2)
 
 ## 🚀 Quick Start
 

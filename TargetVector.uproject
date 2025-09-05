@@ -71,10 +71,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "ModelingTools",
-			"Enabled": false
-		},
-		{
 			"Name": "NetDebugStats",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/61f97c8434374b99979c417944ac3678"
@@ -90,22 +86,6 @@
 		},
 		{
 			"Name": "Volumetrics",
-			"Enabled": true
-		},
-		{
-			"Name": "ElectraPlayer",
-			"Enabled": true
-		},
-		{
-			"Name": "ElectraCDM",
-			"Enabled": true
-		},
-		{
-			"Name": "ElectraSubtitles",
-			"Enabled": true
-		},
-		{
-			"Name": "ElectraUtil",
 			"Enabled": true
 		},
 		{
@@ -127,10 +107,6 @@
 		{
 			"Name": "Soundscape",
 			"Enabled": true
-		},
-		{
-			"Name": "StudioTelemetry",
-			"Enabled": false
 		},
 		{
 			"Name": "GameplayAbilities",
@@ -155,10 +131,6 @@
 		{
 			"Name": "SkeletalMerging",
 			"Enabled": true
-		},
-		{
-			"Name": "SkeletalMeshMerger",
-			"Enabled": false
 		},
 		{
 			"Name": "Chooser",
